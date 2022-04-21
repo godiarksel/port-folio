@@ -1,5 +1,30 @@
 {
   "dependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "devDependencies": {
+    "hint": "^6.1.11",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "name": "port-folio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godiarksel/port-folio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godiarksel/port-folio/issues"
+  },
+  "homepage": "https://github.com/godiarksel/port-folio#readme"
 }
