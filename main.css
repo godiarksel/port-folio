@@ -99,81 +99,91 @@
 .social-media li {
   margin: 10px 30px 10px 0;
 }
-.work-section{
-  margin-left:15px;
+
+.work-section {
+  margin-left: 15px;
 }
-.tonic-container{
+
+.tonic-container {
   display: grid;
   grid-template-columns: auto;
 }
-.tonic-heading{
+
+.tonic-heading {
   font-family: Poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color:#172B4D;
+  color: #172b4d;
 }
-.canopy-container{
+
+.canopy-container {
   display: flex;
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 0;
   align-items: center;
   justify-content: flex-start;
 }
-.canopy-header{
+
+.canopy-header {
   font-family: Poppins, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  margin: 0px 10px 0px 0px;
-  color:#344563;
+  margin: 0 10px 0 0;
+  color: #344563;
 }
-.canopy-text{
-font-family: Poppins, sans-serif;
-font-size: 13px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-margin: 0px 10px 0px 10px;
-color: #7A869A;
+
+.canopy-text {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 10px 0 10px;
+  color: #7a869a;
 }
-.canopy-img{
+
+.canopy-img {
   margin-bottom: 3px;
 }
-.tonic-parag p{
-font-family: Poppins, sans-serif;
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #344563;
-margin: 10px 10px 10px 0px;
+
+.tonic-parag p {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  margin: 10px 10px 10px 0;
 }
-.tonic-icons-container ul{
+
+.tonic-icons-container ul {
   display: flex;
   list-style-type: none;
 }
-.tonic-icons-container li{
-  margin: 10px 5px 10px 0px;
+
+.tonic-icons-container li {
+  margin: 10px 5px 10px 0;
 }
 
-.tonic-btn button{
-background: #FFFFFF;
-border: 1px solid #7F8CFF;
-box-sizing: border-box;
-border-radius: 8px;
-color: #7F8CFF;
-padding: 12px;
-margin: 10px 10px 80px 0px;
-font-family: Poppins, sans-serif;
+.tonic-btn button {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #7f8cff;
+  padding: 12px;
+  margin: 10px 10px 80px 0;
+  font-family: Poppins, sans-serif;
 }
 
-.footer-container{
+.footer-container {
   margin-left: 20px;
   margin-bottom: 80px;
 }
@@ -205,65 +215,75 @@ font-family: Poppins, sans-serif;
   flex-grow: 0;
   margin: 20px 0 12px 0;
 }
-.languages-container{
+
+.languages-container {
   display: grid;
   grid-template-columns: auto;
 }
-.languages-container ul{
+
+.languages-container ul {
   list-style-type: none;
 }
-.lang{
+
+.lang {
   display: inline-flex;
   align-content: center;
   margin: 8px;
 }
-.lang p{
-font-family: Poppins;
-font-size: 20px;
-font-weight: bolder;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: black;
+
+.lang p {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: black;
 }
-.lang img{
+
+.lang img {
   margin-left: 165px;
   margin-top: 20px;
 }
-.frame{
+
+.frame {
   display: inline-flex;
   align-content: center;
   margin: 8px;
 }
-.frame p{
-  font-family: Poppins;
+
+.frame p {
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: bolder;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: black;
-  }
-.frame img{
+}
+
+.frame img {
   margin-left: 155px;
   margin-top: 23px;
 }
-.skills{
+
+.skills {
   display: inline-flex;
   align-content: center;
   margin: 8px;
 }
-.skills p{
-  font-family: Poppins;
+
+.skills p {
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: bolder;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: black;
-  }
-.skills img{
-  margin-left:215px;
+}
+
+.skills img {
+  margin-left: 215px;
   margin-top: 23px;
 }
-.
