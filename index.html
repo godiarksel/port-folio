@@ -220,10 +220,10 @@
             with it
           </p>
         </div>
-        <form class="form">
-          <input class="form-input" placeholder="Enter your name" name="name">
-          <input class="form-input" placeholder="Enter your email" name="email">
-          <textarea class="form-input" placeholder="Write your message here" rows="5" name="message"></textarea>
+        <form class="form" action="https://formspree.io/f/xayvlonj" method="POST">
+          <input class="form-input" placeholder="Enter your name" name="name" type="text" maxlength="30" required>
+          <input class="form-input" placeholder="Enter your email" name="email" type="email" required>
+          <textarea class="form-input" placeholder="Write your message here" rows="5" name="message" maxlength="500" required></textarea>
           <button class="form-button" type="submit"> Get In Touch</button>
         </form>
       </div>
