@@ -17,6 +17,8 @@
   order: 0;
   flex-grow: 0;
   margin: 70px 0 12px 0;
+  animation: slide-in 0.5s forwards; 
+  transform: translateX(-100%); 
 }
 
 @keyframes slide-in {
