@@ -51,7 +51,6 @@
   border-radius: 8px;
   color: #6070ff;
   border: none;
-
 }
 
 .contact .form .form-button:hover {
@@ -59,23 +58,25 @@
   color: #fff;
 }
 
-@media screen and (min-width:620px){
-  .contact{
+@media screen and (min-width: 620px) {
+  .contact {
     text-align: center;
     background-image: url(./images/contact-form-bg.png);
   }
+
   .contact .headline .text {
-    margin-left:435px ;
-    margin-right:435px ;
-  }
-  .contact .form .form-input {
-    margin-left:497px ;
-    margin-right:496px ;
-  }
-  .contact .form .form-button {
-    margin-left:590.5px ;
-    margin-right:649.5px ;
-    white-space: nowrap;
+    margin-left: 435px;
+    margin-right: 435px;
   }
 
+  .contact .form .form-input {
+    margin-left: 497px;
+    margin-right: 496px;
+  }
+
+  .contact .form .form-button {
+    margin-left: 590.5px;
+    margin-right: 649.5px;
+    white-space: nowrap;
+  }
 }
