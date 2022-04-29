@@ -13,6 +13,10 @@
   letter-spacing: 0;
   text-align: center;
   color: #6070ff;
+  transition:letter-spacing linear 0.5s;
+}
+.header:hover{
+  letter-spacing: 2px;
 }
 
 .navlist ul {
