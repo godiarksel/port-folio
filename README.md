@@ -17,12 +17,15 @@ This is my second project.
 
 ##  Contributions
 
-For any contributions, issues, and feature requests,
-
-feel free to check the [issues page](../../issues/).
+1. teckim
+2. stephnna
 
 
 ## Acknowledgments
 
 - Fellow Micronauts
 - Myself
+
+## Live Preview
+
+https://godiarksel.github.io/port-folio/
