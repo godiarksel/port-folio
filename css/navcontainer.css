@@ -37,19 +37,26 @@
 
 .mobile-navlist {
   list-style-type: none;
-  display: block;
+  display: flex;
   position: absolute;
-  left: 0px;
+  left: 100%;
   right: 0px;
   top: 0px;
   bottom: 0px;
-  background: #6070ff;
+  display: block;
+  background-color: #6070FF;
   mix-blend-mode: multiply;
+  transition: 0.4s;
 }
 
 .mobile-navlist a {
-  color: #ffffff;
   text-decoration: none;
+  padding: 25px 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 20px;
+  color: white;
 }
 
 .closeMenu {
@@ -58,13 +65,8 @@
 }
 
 .mobile-navlist li {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 20px;
   padding-top: 45px;
-  padding-left: 28px;
+  display: block;
 }
 
 @media screen and (max-width: 620px) {
