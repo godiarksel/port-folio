@@ -15,7 +15,7 @@
   color: #6070ff;
 }
 
-.navlist ul {
+.navlist {
   list-style-type: none;
   display: flex;
   margin: 20px;
@@ -57,6 +57,7 @@
   font-size: 28px;
   line-height: 20px;
   color: white;
+  cursor: pointer;
 }
 
 .closeMenu {
@@ -70,13 +71,14 @@
 }
 
 @media screen and (max-width: 620px) {
-  .navlist {
-    display: none;
-  }
+.navlist{
+  display: none;
+}
 }
 
 @media screen and (min-width: 620px) {
-  .menu {
+  .openMenu{
     display: none;
   }
-}
+  }
+

@@ -20,7 +20,7 @@
 <body>
 <header>
     <nav class="navbar-container">
-    <a class="header" href="#">Logo</a> 
+    <a class="header" href="">Logo</a> 
     <a class="openMenu"><img src="images/union.png" alt="union"></a>
     <ul class="navlist">
         <li><a href="">Portfolio</a></li>
@@ -30,10 +30,10 @@
     </nav>
     </header>
     <ul class="mobile-navlist">
-        <a href=""><img class="closeMenu" src="images/cancel-icon.png" alt="cancel-icon"></a>
-        <li><a href="#work-section">Portfolio</a></li>
-        <li><a href="#footer-container">About</a></li>
-        <li><a href="#contact">Contacts</a></li>
+        <a href=" "><img class="closeMenu" src="images/cancel-icon.png" alt="cancel-icon"></a>
+        <li><a onclick="readmenu('#work-section')">Portfolio</a></li>
+        <li><a onclick="readmenu('#footer-container')">About</a></li>
+        <li><a onclick="readmenu('#contact-form')">Contacts</a></li>
     </ul>
 
     <section class="section-container">
@@ -241,7 +241,7 @@
 
 </div>
 </section>
-<footer>
+<footer id="contact-form">
     <div class="contact">
         <div class="headline">
           <h2 class="title">Contact me</h2>
