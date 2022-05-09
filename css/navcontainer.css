@@ -37,14 +37,13 @@
 
 .mobile-navlist {
   list-style-type: none;
-  display: flex;
   position: absolute;
   left: 100%;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
   display: block;
-  background-color: #6070FF;
+  background-color: #6070ff;
   mix-blend-mode: multiply;
   transition: 0.4s;
 }
@@ -62,23 +61,22 @@
 
 .closeMenu {
   float: right;
-  margin: 20px;
+  margin: 8px;
 }
 
 .mobile-navlist li {
-  padding-top: 45px;
+  padding-top: 20px;
   display: block;
 }
 
 @media screen and (max-width: 620px) {
-.navlist{
-  display: none;
-}
+  .navlist {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 620px) {
-  .openMenu{
+  .openMenu {
     display: none;
   }
-  }
-
+}

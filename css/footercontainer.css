@@ -1,10 +1,10 @@
-#footer-container {
+.footer-container {
   margin-left: 20px;
   margin-bottom: 80px;
   margin-right: 10px;
 }
 
-#footer-container h1 {
+.footer-container h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -17,7 +17,7 @@
   margin: 90px 0 12px 0;
 }
 
-#footer-container p {
+.footer-container p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -141,7 +141,7 @@
 }
 
 @media screen and (min-width: 620px) {
-  #footer-container {
+  .footer-container {
     display: flex;
     margin-left: 142px;
     margin-right: 142px;
