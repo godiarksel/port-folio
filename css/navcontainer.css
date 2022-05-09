@@ -31,8 +31,40 @@
   color: #344563;
 }
 
-.menu {
+.openMenu {
   margin: 20px;
+}
+
+.mobile-navlist {
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+}
+
+.mobile-navlist a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.closeMenu {
+  float: right;
+  margin: 20px;
+}
+
+.mobile-navlist li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 45px;
+  padding-left: 28px;
 }
 
 @media screen and (max-width: 620px) {
