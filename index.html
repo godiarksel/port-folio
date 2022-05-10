@@ -20,17 +20,22 @@
 <body>
 <header>
     <nav class="navbar-container">
-    <a class="header" href="#">Logo</a> 
-    <a class="menu" href="#"><img src="images/union.png" alt="union"></a>
-    <div class="navlist">
-    <ul>
+    <a class="header" href="">Logo</a> 
+    <a class="openMenu"><img src="images/union.png" alt="union"></a>
+    <ul class="navlist">
         <li><a href="">Portfolio</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contacts</a></li>
     </ul>
-    </div>
     </nav>
     </header>
+    <ul class="mobile-navlist">
+       <li><a href=" "><img class="closeMenu" src="images/cancel-icon.png" alt="cancel-icon"></a></li>
+        <li><a onclick="readmenu('#work-section');">Portfolio</a></li>
+        <li><a onclick="readmenu('#footer');">About</a></li>
+        <li><a onclick="readmenu('#contact-form');">Contacts</a></li>
+    </ul>
+
     <section class="section-container">
             <div class="section-container__title">
                 <h1>
@@ -55,7 +60,7 @@
     </ul>
     </div>
 </section>
-<section class="work-section">
+<section id="work-section">
     <div class="tonic-container">
     <div class="tonic-container1"><img src="images/tonic-portfolio.png" alt="tonic"></div>
     <div class="tonic-container2">
@@ -183,7 +188,8 @@
             </div>
                 
 </section>
-<section class="footer-container">
+<section class ="footer-container">
+<div id = "footer">
 <div class="footer-container__title">
     <h1>
         About <br>
@@ -212,12 +218,12 @@
 <div class="footer-container__languages">
     <ul>    
     <li>
-            <div class="lang">
-               <div><p>Languages</p></div> 
-               <div><img src="images/down-btn.png" alt="down-btn"></div> 
-            </div> 
+    <div class="lang">
+        <div><p>Languages</p></div> 
+        <div><img src="images/down-btn.png" alt="down-btn"></div> 
+    </div> 
     </li>
-      <li><div><img src="images/javascript.png" alt=""></div></li>  
+        <li><div><img src="images/javascript.png" alt=""></div></li>  
         <li><div><img src="images/html.png" alt=""></div></li>
         <li><div><img src="images/css.png" alt=""></div></li>
     <li>
@@ -235,8 +241,9 @@
     </ul>
 
 </div>
+</div>
 </section>
-<footer>
+<footer id="contact-form">
     <div class="contact">
         <div class="headline">
           <h2 class="title">Contact me</h2>
@@ -255,5 +262,6 @@
       </div>
 
 </footer>
+<script src = "myscript.js"></script>
 </body>
 </html>
