@@ -1,37 +1,20 @@
-let modalBtn = document.querySelector('#modal-open button');
-let closeModal = document.querySelector('#modal-close img');
-let modalOverlay = document.querySelector('.modal-overlay');
-let modal = document.querySelector('.modal');
-// console.log(modalBtn);
+const modalBtn = document.querySelectorAll('#modal-open');
+const closeModal = document.querySelector('#modal-close');
+const modalOverlay = document.querySelector('#modal-overlay');
+const modal = document.querySelector('.modal');
 
-// modalBtn.forEach(button => {
-//   button.addEventListener('click', () => {
-//     modalOpen()
-//   })
 function openModal() {
-  modal.classList.add('active');
-  modalOverlay.classList.add('active');
+  modal.style.display = 'block';
+  modalOverlay.style.display = 'block';
 }
 
 function closePop() {
-  modal.classList.remove('active');
-  modalOverlay.classList.remove('active');
+  modal.style.display = 'none';
+  modalOverlay.style.display = 'none';
+}
+for (let j = 0; j < modalBtn.length; j += 1) {
+  modalBtn[j].addEventListener('click', openModal);
 }
 
-// })
-modalBtn.addEventListener('click',openModal);
-modalOverlay.addEventListener('click',closePop);
-closeModal.addEventListener('click',closePop);
-
-// modalOverlay.addEventListener('click', () => {
-//     closeModal()
-//   })
-
-
-// closeModal.forEach(button => {
-//   button.addEventListener('click', () => {
-//     closeModal()
-//   })
-// })
-
-
+modalOverlay.onclick = closePop;
+closeModal.onclick = closePop;

@@ -17,6 +17,3 @@ function readmenu(num) {
 
 openMenu.addEventListener('click', show);
 linkBtn.addEventListener('click', readmenu);
-
-
-
