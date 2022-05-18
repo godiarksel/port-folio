@@ -1,4 +1,5 @@
-import { works } from "./works.js";
+import { works } from './works.js';
+
 const workSection = document.querySelector('#work-section');
 const workCards = works;
 
