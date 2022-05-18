@@ -1,4 +1,4 @@
-export const works = [
+const works = [
   {
     id: '001',
     container: 'tonic-container',
@@ -52,3 +52,4 @@ export const works = [
     alt: ['multi-post-stories2', 'html-tag', 'css-tag', 'javascript-tag'],
   },
 ];
+export default works;
