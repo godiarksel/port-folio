@@ -58,6 +58,10 @@
   color: #fff;
 }
 
+.error-msg {
+  color: #fff;
+}
+
 @media screen and (min-width: 620px) {
   .contact {
     text-align: center;
