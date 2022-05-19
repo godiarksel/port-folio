@@ -131,9 +131,10 @@
           </p>
         </div>
         <form class="form" action="https://formspree.io/f/xayvlonj" method="POST">
-          <input class="form-input" placeholder="Enter your name" name="name" type="text" maxlength="30" required>
-          <input class="form-input" placeholder="Enter your email" name="email" type="email" required>
-          <textarea class="form-input" placeholder="Write your message here" rows="5" name="message" maxlength="500" required></textarea>
+          <input class="form-input" placeholder="Enter your name" id="name" name="name" type="text" maxlength="30" required>
+          <input class="form-input" placeholder="Enter your email" id="email" name="email" type="email" required>
+          <textarea class="form-input" placeholder="Write your message here" rows="5" id="message" name="message" maxlength="500" required></textarea>
+          <div class="error-msg"></div>
           <button class="form-button" type="submit"> Get In Touch</button>
         </form>
       </div>
