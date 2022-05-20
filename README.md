@@ -10,8 +10,8 @@ This is my second project.
 
 👤 **Author1**
 
-- GitHub: [@godiarksel](https://github.com/githubhandle)
-- Twitter: [@godiarksel](https://twitter.com/twitterhandle)
+- GitHub: [@godiarksel](https://github.com/godiarksel)
+- Twitter: [@godiarksel](https://twitter.com/godiarksel)
 - LinkedIn: [Godfrey Mwandembo](https://linkedin.com/in/godfrey-mwandembo-045667127/)
 
 
@@ -19,6 +19,9 @@ This is my second project.
 
 1. teckim
 2. stephnna
+3. Favourezeugwa
+4. t-bello7
+
 
 
 ## Acknowledgments
